@@ -1,28 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <style type="text/css">
+        body{
+            font-size: 16px;
+            background-color: #f9f9f9;
+        }
+
+        h2{
+            text-align: center;
+            border-bottom: 2px solid green;
+        }
+
+        form{
+            width: 300px;
+            background: #fff;
+            padding: 15px 40px 40px;
+            margin: 50px auto 0;
+            border: 3px solid #ccc;
+            border-radius: 8px;
+
+        }
+
+        input, select{
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 2px;
+
+        }
+
+        label{
+            display: block;
+            margin: 6px;
+        }
+
+        div{
+            padding-bottom: 12px;
+        }
+
+        .form-inline{
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            padding: 8px 10px 4px;
+
+        }
+
+        .form-inline label, .form-inline input{
+            display: inline-block;
+            width: auto;
+            padding-right: 9px;
+        }
+
+        input[type="submit"]{
+            font-size: 18px;
+            background-color: #4cbb17;
+            border-color: black;
+            box-shadow: 0 3px 0 gray;
+            color: white;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover{
+           background: #228b22; 
+        }
+    </style>
 </head>
+
 <body>
-    <form align="center">
-     Enter your name: <input type="text"> <br> <br>
-     Enter your number: <input type="number"> <br> <br>
-     Enter your email: <input type="email"> <br> <br>
-     Enter your password: <input type="password"> <br> <br>
-     Enter your date: <input type="date"> <br> <br>
-     Enter your time: <input type="time"> <br> <br>
-     Enter your url: <input type="url"> <br> <br>
-     File: <input type="file"> <br> <br>
-     Color: <input type="color"> <br> <br>
-     Range: <input type="range"> <br> <br>
-     Checkbox: <input type="checkbox"> <br> <br>
-        Gender: <input type="radio" name="gen"> Mail 
-         <input type="radio" name="gen"> Femail
-         <input type="radio" name="gen"> Other <br> <br>
     
-        <input  type="submit" value="Login">
+    <form>
+        <h2>Registration Form</h2>
+        <div>
+            <Label>Candidate Name</Label>
+            <input type="text" name="">
+        </div>
+        <div>
+            <Label>Email Id</Label>
+            <input type="email" name="">
+        </div>
+        <div>
+            <Label>Monile Number</Label>
+            <input type="text" name="">
+        </div>
+        <div>
+            <Label>Course</Label>
+            <!-- <select> tag for dropdown option -->
+            <select name="course">
+                <option>C++</option>
+                <option>Python</option>
+                <option>Java FullStack</option>
+                <option>MERN</option>
+            </select>
+        </div>
+        <div>
+            <Label>Gender</Label>
+            <div class="form-inline">
+                <label>
+                    <input type="radio" name="gender" value="male">Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female">Female
+                </label>
+            </div>
+
+        </div>
+        <div >
+            <Label>Category</Label>
+            <div class="form-inline">
+                <label>
+                    <input type="radio" name="category" value="gen">Gen
+                </label>
+                <label>
+                    <input type="radio" name="category" value="obc">OBC
+                </label>
+                <label>
+                    <input type="radio" name="category" value="st">ST
+                </label>
+                <label>
+                    <input type="radio" name="category" value="sc">SC
+                </label>
+            </div>
+
+        </div>
+        <div>
+            <input type="submit" name="" value="Register">
+        </div>
+
+
     </form>
 </body>
+
 </html>
