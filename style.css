@@ -1,0 +1,70 @@
+body {
+    background: wheat;
+
+}
+
+.name {
+    height: 100px;
+    width: 120px;
+    color: aqua;
+    border: 5px solid red;
+    padding: 80px;
+    margin: 15%;
+    background-color: rgb(152, 201, 36);
+    text-align: center;
+    border-radius: 50%;
+    
+
+
+}
+
+h2 {
+    border: 4px solid;
+    background-color: blueviolet;
+    text-align: center;
+
+}
+
+p {
+    text-align: center;
+}
+
+.edu{
+    color: blue;
+    text-align: center;
+    background-color: aquamarine;
+    border: 5px solid;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+
+}
+
+hr{
+    border: 3px solid;
+    color: chocolate;
+}
+
+div{
+    text-align: center;
+    background-color: aquamarine;
+
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    border: 4px solid;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-color: 50px brown;
+    overflow: hidden;
+    padding: auto;
+    margin-left: 35%;
+
+    
+    
+    
+}
