@@ -2,9 +2,10 @@ div {
     margin: 30%;
     color: rgb(244, 176, 6);
     background-image: url(https://imgs.search.brave.com/1lyedHqprY7stZ1EfnoU3-anBAQksY6FkJoq-XSGhcg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyMy8w/Ny8xNy8wOS8yNS90/cmVlLTgxMzIyNTBf/MTI4MC5qcGc);
-    width: 400px;
-    padding-left: 60px;
-    padding-top: 100px;
+    width: 300px;
+    text-align: center;
+    /* padding-left: 100px;
+    padding-top: 100px; */
     border: 4px solid;
     border-radius: 10%;
     box-shadow: 15px 8px 15px 0px rgba(226, 59, 206, 0.637);
@@ -15,32 +16,38 @@ span {
     color: rgb(200, 10, 26);
 }
 
-.c {
+.s {
     color: black;
 }
 
-.y {
+.u {
     color: rgb(206, 34, 34);
 }
 
-.b {
-    color: rgb(129, 196, 37);
-}
-
-.b {
-    color: rgb(129, 196, 37);
-}
-
 .r {
+    color: rgb(129, 196, 37);
+}
+
+.y {
+    color: rgb(129, 196, 37);
+}
+
+.a {
     color: rgb(19, 2, 198);
 }
 
-.o {
+.b {
     color: rgb(32, 4, 107);
 }
 
-.m {
+.h {
     color: rgb(223, 244, 100);
+}
+.aa {
+    color: rgb(222, 62, 38);
+}
+.n {
+    color: rgba(57, 168, 47, 0.547);
 }
 
 h1 {
