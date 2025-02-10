@@ -1,8 +1,10 @@
-div {
+.mdiv {
     margin: 30%;
     color: rgb(244, 176, 6);
     background-image: url(https://imgs.search.brave.com/1lyedHqprY7stZ1EfnoU3-anBAQksY6FkJoq-XSGhcg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyMy8w/Ny8xNy8wOS8yNS90/cmVlLTgxMzIyNTBf/MTI4MC5qcGc);
     width: 300px;
+    
+    background-position: center;
     text-align: center;
     /* padding-left: 100px;
     padding-top: 100px; */
@@ -52,4 +54,19 @@ span {
 
 h1 {
     text-shadow: -5px 16px 5px rgb(85, 47, 255);
+}
+
+.div1{
+    border-radius: 3px;
+    width: 150%;
+    height: 400px;
+    border: 4px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.div2{
+    border-radius: 3px;
+    width: 30%;
+    height: 100px;
+    border: 2px solid;
 }
