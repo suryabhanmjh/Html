@@ -9,7 +9,7 @@ body {
 .main-div {
     border: 3px solid;
     width: 90%;
-    height: 400px;
+    height: 500px;
     margin: auto;
     justify-content: space-between;
 }
@@ -31,4 +31,21 @@ body {
     border-radius: 6px;
     background-image: url(https://imgs.search.brave.com/b3FJT71o4OhNd4KgpvUJfL02eZyoNcvgXSwFuUtC6jQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzE4LzMyLzk0/LzM2MF9GXzUxODMy/OTQ2NF9FOWZudk1D/anB4U0UxT281M0g3/ZW16WVBqb2MyRXZp/Yy5qcGc);
     box-shadow: 10px 10px 5px #e45555;
+}
+
+.text{
+    display: flex;
+    height: 70px;
+    border: 3px solid;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.name{
+    display: flex;
+    gap: 10px;
 }

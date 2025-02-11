@@ -1,0 +1,46 @@
+.navigation{
+    display: flex;
+    border: 2px solid;
+    justify-content: space-between;
+    
+}
+
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    margin-left: 10px;
+   
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #f1f1f1;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #2611c3;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-emphasis-color: white;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
