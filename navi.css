@@ -1,7 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .navigation{
+    width: 100%;
     display: flex;
     border: 2px solid;
     justify-content: space-between;
+    padding: 10px;
+    align-content: center;
     
 }
 
@@ -9,7 +18,7 @@
     display: flex;
     list-style-type: none;
     gap: 10px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
    
 }
 
@@ -17,8 +26,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
+    /* margin-left: 10px;
     margin-right: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px; */
     border: 2px solid;
     border-radius: 50%;
     width: 50px;
@@ -36,7 +47,8 @@ button{
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 5px;
+    padding: 8px;
+    height: 20px;
     text-emphasis-color: white;
     color: aliceblue;
 }
